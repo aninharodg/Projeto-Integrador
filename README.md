@@ -1,2 +1,58 @@
 # Projeto-Integrador
-Códigos
+Códigos - Tela cadastro
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor da terra</title>
+</head>
+<body>
+  <h1>Cadastro</h1>
+
+<form>
+
+  <div>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="usuario_nome" />
+  </div>
+
+  <div>
+    <label for="CPF">CPF:</label>
+     <input type="text" id="cpf" name="cpf_usuario"/>
+  </div>
+
+  <div>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="usuario_email" />
+    </div>
+
+  <div>
+    <label for="senha">Senha:</label>
+    <input type="text" id="senha" name="senha_úsuario"/>
+  </div>
+
+  <div>
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone_úsuario"/>
+  </div>
+
+  <div>
+    <label for="endereço">Endereço:</label>
+    <input type="text" id="endereço" name="endereço_úsuario"/>
+  </div>
+
+  <div>
+    <label for="complemento">Complemento</label>
+    <input type="text" id="complemento" name="complemento_úsuario"/>
+  </div>
+
+  <div class="button">
+    <button type="submit">Cadastrar-se</button>
+  </div>
+
+</form>
+</body>
+</html>
